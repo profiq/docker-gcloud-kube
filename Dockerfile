@@ -18,4 +18,5 @@ RUN tar zxf *.gz google-cloud-sdk
 
 RUN ./google-cloud-sdk/install.sh -q
 
+RUN ./google-cloud-sdk/bin/gcloud components install kubectl
 
